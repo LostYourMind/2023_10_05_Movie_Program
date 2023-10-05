@@ -1,0 +1,27 @@
+링크에 있는 영화 관련 정보 관리 프로그램
+하단 링크를 분석해 영화 데이터 타입을 정의하고 기능 구현
+
+[기본정보 - 메뉴 전 출력 정보]
+https://search.naver.com/search.naver?where=nexearch&sm=top_hty&fbm=0&ie=utf8&query=%EC%98%81%ED%99%94
+
+
+[상세 정보 - 검색시 출력 정보]
+https://search.naver.com/search.naver?where=nexearch&sm=tab_etc&mra=bkEw&x_csa=%7B%22isOpen%22%3Atrue%7D&pkid=68&os=29068654&qvt=0&query=%EC%98%81%ED%99%94%2030%EC%9D%BC%20%EC%A0%95%EB%B3%B4
+
+영화 종류
+    - 애니메이션
+    - 드라마
+    - 코미디
+    - 액션
+    - SF
+
+[제안기능]
+1. 영화 정보 등록 - 조별로 정의한 데이터                                                                                         O
+2. 영화 정보 검색 - 영화제목으로 검색, 가능하다면 부분문자열 검색가능한 기능 지원(제목 일부의 문자열을 입력하면 검색 가능하도록) O
+3. 영화 정보 삭제 - 영화제목으로 검색 후 삭제 
+4. 관람객 평점 등록 - 사용자가 평점을 등록하면 해당 영화의 평점이 변경됨                                                             insert
+                             [평점을 등록한 관람객 수 , 평점입력 값을 연산하여 평균 평점 표현]
+                             People, Score
+
+* 영화타입 정의는 조별로 통일할 것
+* 전체 구성은 수업시 작성한 구성을 따를 것
